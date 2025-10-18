@@ -5,6 +5,8 @@ A simple web-based registration form built using HTML and JavaScript with real-t
 
 It ensures that users provide valid information before submitting the form and prevents incomplete or incorrect data submission.
 
+
+
 📝 Features
 
 Real-time validation: Checks user input as they type.
@@ -21,11 +23,14 @@ Disabled submit button: Submit button remains disabled until all fields are vali
 
 Success alert: Shows a message when the registration is successful.
 
+
+
 📌 Project Structure
 student-registration-form/
 │
 ├── registration.html       # Main HTML file containing the form
 ├── README.md               # This README file
+
 
 
 ⚙️ Technologies Used
@@ -37,6 +42,8 @@ JavaScript – For real-time validation and interactivity
 Inline CSS – For error message styling
 
 Note: No external libraries are required.
+
+
 
 🔍 How It Works
 
@@ -69,11 +76,13 @@ Becomes enabled only when all fields are valid.
 
 Clicking it triggers a "Registration successful!" alert.
 
+
+
 📋 How to Use
 
 Clone the Repository
 
-git clone https://github.com/your-username/student-registration-form.git
+git clone https://github.com/yashinipriya07/Student-Registration-Form.git
 
 
 Open the Form
@@ -96,6 +105,8 @@ Click the Submit button.
 
 A success alert will confirm your registration.
 
+
+
 🔧 Example Validation
 Field	Input Example	Valid / Invalid
 Name	Yashini	✅ Valid
@@ -105,6 +116,9 @@ Email	yashini@example.com
 Email	yashini.com	❌ Invalid
 Password	123456	✅ Valid
 Password	123	❌ Invalid
+
+
+
 🎨 Optional Enhancements
 
 Add green/red borders on valid/invalid input fields.
@@ -114,6 +128,8 @@ Use CSS frameworks like Bootstrap for responsive design.
 Store the registered data in local storage or a database.
 
 Add password confirmation and show/hide password functionality.
+
+
 
 Author 
 YASHINI PRIYA S
